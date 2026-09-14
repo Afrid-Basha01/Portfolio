@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import profileImg from '../assets/profile.jpg'; 
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,7 +39,7 @@ export default function Home() {
         </div>
       </div>
       <div className="hero-image">
-        <img src={profileImg} alt="Mohammad Afrid Basha" />
+        <img src="http://localhost:5000/images/profile.jpg" alt="Mohammad Afrid Basha" />
       </div>
     </div>
   );
